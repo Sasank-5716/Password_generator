@@ -1,8 +1,11 @@
 import React from 'react'
+import Password_generator from './Password_generator'
 
 function App() {
   return (
-    <div>App</div>
+    <div>
+      <Password_generator/>
+    </div>
   )
 }
 
