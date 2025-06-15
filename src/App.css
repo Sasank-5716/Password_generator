@@ -40,3 +40,28 @@ body, html, #root {
   color: #232946;
   outline: none;
 }
+
+.copy-btn {
+  background: #232946;
+  color: #fff;
+  border: none;
+  border-radius: 0 0.75rem 0.75rem 0;
+  padding: 0 1.2rem;
+  font-size: 1rem;
+  cursor: pointer;
+  transition: background 0.2s;
+  font-weight: 600;
+}
+.copy-btn:hover {
+  background: #3e63dd;
+}
+
+.slider-row {
+  margin-bottom: 1rem;
+}
+
+.length-label {
+  font-size: 0.98rem;
+  color: #7d8597;
+  margin-bottom: 0.25rem;
+}
