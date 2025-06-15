@@ -92,3 +92,41 @@ input[type="checkbox"] {
   height: 1.1rem;
   accent-color: #3e63dd;
 }
+
+.generate-btn {
+  background: #232946;
+  color: #fff;
+  width: 100%;
+  padding: 0.9rem 0;
+  border: none;
+  border-radius: 0.75rem;
+  font-size: 1.1rem;
+  font-weight: bold;
+  cursor: pointer;
+  margin-top: 0.5rem;
+  box-shadow: 0 2px 8px rgba(44,62,80,0.07);
+  transition: background 0.2s;
+}
+.generate-btn:hover {
+  background: #3e63dd;
+}
+
+.tips-box {
+  background: #f6f8fa;
+  border-radius: 0.75rem;
+  padding: 1rem;
+  margin-top: 1rem;
+}
+
+.tips-title {
+  font-weight: 600;
+  margin-bottom: 0.5rem;
+  color: #232946;
+}
+
+.tips-list {
+  font-size: 0.96rem;
+  color: #7d8597;
+  padding-left: 1.2rem;
+  margin: 0;
+}
