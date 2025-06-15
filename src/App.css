@@ -40,3 +40,20 @@
 .read-the-docs {
   color: #888;
 }
+
+/* App background */
+body, html, #root {
+  height: 100%;
+  margin: 0;
+  padding: 0;
+  background: linear-gradient(135deg, #ece9f7 0%, #d1e7fa 100%);
+  min-height: 100vh;
+}
+
+/* Flex center everything */
+.main-center {
+  min-height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
