@@ -1,46 +1,3 @@
-#root {
-  max-width: 1280px;
-  margin: 0 auto;
-  padding: 2rem;
-  text-align: center;
-}
-
-.logo {
-  height: 6em;
-  padding: 1.5em;
-  will-change: filter;
-  transition: filter 300ms;
-}
-.logo:hover {
-  filter: drop-shadow(0 0 2em #646cffaa);
-}
-.logo.react:hover {
-  filter: drop-shadow(0 0 2em #61dafbaa);
-}
-
-@keyframes logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
-}
-
-@media (prefers-reduced-motion: no-preference) {
-  a:nth-of-type(2) .logo {
-    animation: logo-spin infinite 20s linear;
-  }
-}
-
-.card {
-  padding: 2em;
-}
-
-.read-the-docs {
-  color: #888;
-}
-
 /* App background */
 body, html, #root {
   height: 100%;
@@ -56,4 +13,30 @@ body, html, #root {
   display: flex;
   align-items: center;
   justify-content: center;
+}
+
+.generator-title {
+  font-size: 2rem;
+  font-weight: bold;
+  text-align: center;
+  color: #232946;
+  margin-bottom: 1rem;
+}
+
+.password-row {
+  display: flex;
+  gap: 0.5rem;
+  margin-bottom: 0.5rem;
+}
+
+.password-input {
+  flex: 1;
+  padding: 0.75rem;
+  border: 1px solid #e0e0e0;
+  border-right: none;
+  border-radius: 0.75rem 0 0 0.75rem;
+  font-size: 1.1rem;
+  background: #f6f8fa;
+  color: #232946;
+  outline: none;
 }
